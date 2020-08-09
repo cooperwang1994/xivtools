@@ -63,6 +63,7 @@ fn main() -> Result<(), Error> {
         ui::wait(0.5);
         ui::press_confirm(hnd);
         ui::press_confirm(hnd);
+        ui::wait(0.5);
     }
 
     Ok(())
